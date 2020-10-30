@@ -1,3 +1,11 @@
+# project setup
+wanneer de project op je pc gecloned is voor dan de volgende commands uit in je project directory
+'composer install',
+'npm install' of 'yarn',
+'cp .env.example .env',
+'php artisan key:generate'
+
+
 # PHPVoorbeeld
 voordat u begint met het controleren van de stel ik eerst voor dat uw een localhost database opzet persoonlijk heb ik gebruik gemaakt van phpmyadmin via de xampp applicatie.
 nu u een database hebt kan u de .env variabelen aanpassen. Hierbij moet u de variabelen DB_DATABASE en DB_PORT aanpassen nar uw eigen waardes.
